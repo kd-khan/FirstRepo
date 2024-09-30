@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/3845731.png" type="image/x-icon">
+</head>
+<body>
+    <div class="weather-app">
+        <div class="location-search">
+            <select id="country-select" class="dropdown"></select>
+            <select id="city-select" class="dropdown"></select>
+            <input type="text" id="country-search" placeholder="Search country..." class="search-input">
+            <button id="search-button" class="button">Get Weather</button>
+             <button id="current-weather-button" class="button"> Use My Location </button> 
+        </div>
+        <div id="weather-card" class="weather-card">
+            <h2 id="current-location">Location: N/A</h2>
+            <h3 id="current-temp">Temperature: N/A</h3>
+            <p id="current-description">Description: N/A</p>
+            <img id="current-weather-icon" src="" alt="Weather Icon" class="weather-icon">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
